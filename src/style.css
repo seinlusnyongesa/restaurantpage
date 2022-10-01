@@ -4,13 +4,11 @@
   margin: 0;
   padding: 0;
 }
-
 :root {
   --nav-bg: #f8fafc;
   --link-border-bg: #ef4444;
   --text-color: #262626;
 }
-
 body {
   font-family: Roboto;
 }
