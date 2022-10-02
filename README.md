@@ -1,4 +1,4 @@
-#restaurant page
+# restaurant page
 
 a project made from the TOP webpack exercise
 
