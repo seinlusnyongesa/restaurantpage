@@ -24,7 +24,11 @@ function description() {
   return desc;
 }
 
-module.exports = {
-  hero,
-  description,
-};
+function homepage() {
+  let div = document.createElement("div");
+  div.appendChild(hero());
+  div.appendChild(description());
+  return div;
+}
+
+export default homepage;

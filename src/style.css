@@ -162,3 +162,7 @@ nav {
 .menu ul li strong {
   color: #ef4444;
 }
+
+.active {
+  border-bottom: 2px solid var(--link-border-bg) !important;
+}

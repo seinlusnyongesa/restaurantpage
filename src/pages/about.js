@@ -1,4 +1,4 @@
-module.exports = function aboutPage() {
+function aboutPage() {
   let div = document.createElement("div");
   div.classList.add("about");
   let aboutH1 = document.createElement("h1");
@@ -15,4 +15,6 @@ module.exports = function aboutPage() {
   div.appendChild(p);
 
   return div;
-};
+}
+
+export default aboutPage;

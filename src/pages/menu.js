@@ -1,4 +1,4 @@
-module.exports = function menu() {
+function menu() {
   let div = document.createElement("div");
   div.classList.add("menu");
   let menuH1 = document.createElement("h1");
@@ -58,4 +58,6 @@ module.exports = function menu() {
   div.appendChild(menuH1);
   div.appendChild(menuList);
   return div;
-};
+}
+
+export default menu;
